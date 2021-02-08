@@ -1,6 +1,7 @@
 # Your code goes here:
-def render_person(a,b,c,d,e):
-    return a +" is a "+ str(d) +" years old "+ e +" born in "+ b +" with "+ e + " eyes"
+def render_person(name,birthday,color,age,gender):
+    sentence = f'{name} is a {age} years old {gender} born in {birthday} with {color} eyes'
+    return sentence
 
 
 # Do not edit below this line
